@@ -1,0 +1,4 @@
+numpy #TODO ADD Fixed Versions
+pandas
+nba_api
+request

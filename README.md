@@ -1,4 +1,5 @@
-# This is Text-Based NBA Simulator that can Simulate a game based on real play by play data
+# Text-Based NBA 
+This Simulator that can Simulate a game based on real play by play data and outputs at as Text to the Command Line
 
 ## Data
 It parses official NBA Data (from 2019 season but technically others are possible) and accumulates stats for each possible lineup a team ran. From this data it creates probabilities for possession outcomes depending on the lineup both for defense and offense.
@@ -14,6 +15,7 @@ Simulate a game -> `python -m analyze.re_simulate_game <HOME_TEAM_ABBREVIATION> 
 ## Example:
 python -m analyze.re_simulate_game BOS PHI
 
+```
 ....
 2pta by: away
 Shot made
@@ -55,3 +57,4 @@ Turnover by home
 -----
 Q4 End {'home': 102, 'away': 114}
 -----
+```

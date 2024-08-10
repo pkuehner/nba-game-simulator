@@ -1,4 +1,4 @@
-# Text-Based NBA 
+# Text-Based NBA Simulator
 This Simulator that can Simulate a game based on real play by play data and outputs at as Text to the Command Line
 
 ## Data
